@@ -1,0 +1,5 @@
+model_name,best_params,accuracy,precision,recall,f1_score,roc_auc
+Random Forest,"{'classifier__max_depth': None, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}",0.9007263922518159,0.9425287356321839,0.5157232704402516,0.6666666666666666,0.9601567140957823
+Gradient Boosting,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 5, 'classifier__n_estimators': 200}",0.9225181598062954,0.905982905982906,0.6666666666666666,0.7681159420289855,0.9503550111736585
+Decision Tree,"{'classifier__max_depth': 10, 'classifier__min_samples_split': 10}",0.8535108958837773,0.5979381443298969,0.7295597484276729,0.6572237960339944,0.8641292561266537
+AdaBoost,"{'classifier__learning_rate': 1.0, 'classifier__n_estimators': 200}",0.8547215496368039,0.8,0.3270440251572327,0.4642857142857143,0.8573213393303349
